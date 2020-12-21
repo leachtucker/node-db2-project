@@ -9,6 +9,9 @@ module.exports = {
     useNullAsDefault: true, // Needed when using sqlite3
     migrations: {
       directory: './data/migrations'
+    },
+    seeds: {
+      diretory: './data/seeds'
     }
   }
 };
